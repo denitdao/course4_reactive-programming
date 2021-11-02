@@ -16,13 +16,4 @@
 
     <name>Lab 02</name>
 
-    <dependencies>
-        <dependency>
-            <groupId>ua.denitdao.kpi.reactive</groupId>
-            <artifactId>stream-tasks</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-    </dependencies>
-
-
 </project>

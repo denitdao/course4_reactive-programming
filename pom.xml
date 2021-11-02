@@ -50,7 +50,6 @@
         <module>lab03</module>
         <module>lab04</module>
         <module>lab05</module>
-        <module>stream-tasks</module>
     </modules>
 
     <properties>

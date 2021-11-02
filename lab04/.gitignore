@@ -1,0 +1,8 @@
+*.class
+*.war
+*.ear
+*.iml
+.project
+.classpath
+.settings/
+.gradle/
