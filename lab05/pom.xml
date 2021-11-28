@@ -13,7 +13,26 @@
 
     <groupId>ua.denitdao.kpi.reactive</groupId>
     <artifactId>lab05</artifactId>
+    <packaging>pom</packaging>
 
     <name>Lab 05</name>
+    <modules>
+        <module>stations</module>
+        <module>records</module>
+        <module>meteo</module>
+    </modules>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <version>2.5.6</version>
+        </dependency>
+        <dependency>
+            <groupId>io.spring.gradle</groupId>
+            <artifactId>dependency-management-plugin</artifactId>
+            <version>1.0.11.RELEASE</version>
+        </dependency>
+    </dependencies>
 
 </project>
