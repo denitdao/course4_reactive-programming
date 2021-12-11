@@ -19,7 +19,7 @@ public class MeteoController {
     @GetMapping
     public List<Station> getStationInfo(@RequestBody List<Integer> stationIds) {
 
-    return stationIds.stream()
+        return stationIds.stream()
                      .map(id -> internalService.collectFromRestSources(id))
                      .map(Tuple2ToStationTransformer::populateStationFromTuple2)
                      .collect(Collectors.toList());
